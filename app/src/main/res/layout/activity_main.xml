@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:id="@+id/location_1"
+                android:background="@drawable/text_view_driver"
+                android:textSize="45dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/location_2"
+                android:background="@drawable/text_view_driver"
+                android:textSize="45dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/location_3"
+                android:background="@drawable/text_view_driver"
+                android:textSize="45dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:id="@+id/location_4"
+                android:background="@drawable/text_view_driver"
+                android:textSize="45dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/location_5"
+                android:background="@drawable/text_view_driver"
+                android:textSize="45dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/location_6"
+                android:background="@drawable/text_view_driver"
+                android:textSize="45dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:id="@+id/location_7"
+                android:background="@drawable/text_view_driver"
+                android:textSize="45dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/location_8"
+                android:background="@drawable/text_view_driver"
+                android:textSize="45dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+            <TextView
+                android:gravity="center"
+                android:id="@+id/location_9"
+                android:background="@drawable/text_view_driver"
+                android:textSize="45dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
